@@ -14,7 +14,7 @@ if ((float)PCRE_VERSION<7.9)
 // Set some defaults
 $f3->mset(array(
 	'DEBUG' => 0,
-	'AUTOLOAD' => 'app',
+	'AUTOLOAD' => 'app/',
 	'UI' => 'ui/',
 ));
 
